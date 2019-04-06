@@ -1,17 +1,15 @@
 {
   "name": "danillouz.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My personal website.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "browser-sync start --server --directory --files index.html main.css"
+    "start": "browser-sync start --server --directory --files index.html index.css index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danillouz/danillouz.github.io.git"
   },
-  "keywords": [],
   "author": "Daniël Illouz <daniel.illouz@me.com>",
   "license": "MIT",
   "bugs": {

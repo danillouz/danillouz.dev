@@ -1,0 +1,117 @@
+:root {
+  --black: #111111;
+}
+
+html {
+  font-family: monospace;
+  color: var(--black);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3e999f;
+}
+
+#root {
+  display: grid;
+  height: 100vh;
+}
+
+#terminal {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: 800px;
+  min-height: 500px;
+  box-shadow: 0 7px 14px #00000018;
+  margin: auto;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.menu {
+  height: 25px;
+  background-color: #d6d6d6;
+  border-radius: 5px 5px 0 0;
+}
+
+.button {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  position: relative;
+  top: 6px;
+}
+
+.close {
+  left: 6px;
+  background-color: #ff504f;
+  border: 1px solid #f80000;
+}
+
+.minimize {
+  left: 6px;
+  background-color: #ffbc00;
+  border: 1px solid #f19900;
+}
+
+.zoom {
+  left: 6px;
+  background-color: #00cf1a;
+  border: 1px solid #00ae00;
+}
+
+.screen {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0.5em;
+  border-radius: 0 0 5px 5px;
+}
+
+.screen p {
+  margin: 0.5em 0;
+  position: relative;
+  font-size: 1.2em;
+  font-family: monospace;
+}
+
+.prompt {
+  color: #4271ae;
+}
+
+.prompt::after {
+  content: ' $';
+  color: #718c00;
+}
+
+#cursor.blink {
+  animation: blink 1s 0.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
