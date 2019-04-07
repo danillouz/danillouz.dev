@@ -1,7 +1,6 @@
 'use strict';
 
 const THINGS_I_LIKE = [
-  'building things people love',
   'learning new things',
   'working with an amazing team',
   'Node.js',
@@ -9,17 +8,17 @@ const THINGS_I_LIKE = [
   'pizza',
   'Go',
   'sharing knowledge',
-  'sleeping',
+  'building things people love',
   'ReactJS',
-  'solving real problems',
   'ice cream',
   'Rust',
+  "spotting other people's strengths",
   'serverless technologies, like AWS Lambda',
   'salsa dancing',
   'having an open mind',
   'reading books',
-  'noticing what other people are good at',
   'tweaking the color scheme of my terminal',
+  'sleeping',
   'making crosswind landings'
 ];
 
