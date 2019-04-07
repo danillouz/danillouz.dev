@@ -155,7 +155,11 @@ a {
 }
 
 #cursor.blink {
-  animation: blink 1s 0.5s infinite;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes blink {
@@ -173,5 +177,43 @@ a {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  #root {
+    grid-template-areas:
+      'main'
+      'main';
+    grid-template-rows: 1fr;
+  }
+
+  #header {
+    display: none;
+  }
+
+  #terminal {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    min-height: 100%;
+  }
+
+  .menu {
+    border-radius: 0;
+  }
+
+  .screen {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .prompt::before {
+    content: '';
+  }
+
+  .screen p {
+    font-size: 1em;
   }
 }
