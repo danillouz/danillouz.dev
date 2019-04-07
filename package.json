@@ -4,7 +4,11 @@
   "description": "My personal website.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "browser-sync start --server --directory --files index.html index.css index.js"
+    "start": "rimraf .cache dev && parcel src/index.html --out-dir dev",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "lint:format": "npm run lint -- --fix",
+    "build:client": "parcel build src/index.html",
+    "build": "npm run lint:format && npm test && npm run build:client"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,12 @@
   },
   "homepage": "https://github.com/danillouz/danillouz.github.io#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
-  }
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {}
 }

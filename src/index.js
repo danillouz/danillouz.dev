@@ -1,5 +1,3 @@
-'use strict';
-
 const THINGS_I_LIKE = [
   'learning new things',
   'working with an amazing team',
