@@ -13,59 +13,96 @@
 
   <body>
     <div id="root">
-      <div id="terminal">
-        <div class="menu">
-          <div class="button close"></div>
-          <div class="button minimize"></div>
-          <div class="button zoom"></div>
+      <header id="header">
+        <div id="logo">
+          <svg viewBox="0 0 500 50">
+            <symbol id="logo-text-symbol">
+              <text
+                text-anchor="middle"
+                x="50%"
+                y="50%"
+                dy="0.35em"
+                width="100%"
+                height="100%"
+              >
+                daniel illouz
+              </text>
+            </symbol>
+
+            <use xlink:href="#logo-text-symbol" class="logo-text"></use>
+            <use xlink:href="#logo-text-symbol" class="logo-text"></use>
+            <use xlink:href="#logo-text-symbol" class="logo-text"></use>
+          </svg>
         </div>
+      </header>
 
-        <div class="screen">
-          <p>
-            <span class="prompt">daniel</span>
-            hi, I'm Daniël
-          </p>
+      <main id="main">
+        <div id="terminal">
+          <div class="menu">
+            <div class="button close"></div>
+            <div class="button minimize"></div>
+            <div class="button zoom"></div>
+          </div>
 
-          <p>
-            <span class="prompt">daniel</span>
-            a software engineer from the Netherlands
-          </p>
+          <div class="screen">
+            <p>
+              <span class="prompt"></span>
+              hi, I'm Daniël, a software engineer from the Netherlands
+            </p>
 
-          <p>
-            <span class="prompt">daniel</span>
-            I love to design and build reliable and maintainable software
-          </p>
+            <p>
+              <span class="prompt"></span>
+            </p>
 
-          <p>
-            <span class="prompt">daniel</span>
-            I build for the web, mostly on the Backend
-          </p>
+            <p>
+              <span class="prompt"></span>
+              I love to design and build reliable and maintainable software
+            </p>
 
-          <p>
-            <span class="prompt">daniel</span>
-            and love learning more about software architecure and distributed
-            systems
-          </p>
+            <p>
+              <span class="prompt"></span>
+            </p>
 
-          <p>
-            <span class="prompt">daniel</span>
-            if you like, you can check my
-            <a href="https://github.com/danillouz" target="_blank">GitHub</a> or
-            <a
-              href="https://stackoverflow.com/users/4455533/danillouz?tab=profile"
-              target="_blank"
-              >Stack Overflow</a
-            >
-            profiles
-          </p>
+            <p>
+              <span class="prompt"></span>
+              I build for the web, mostly on the Backend
+            </p>
 
-          <p>
-            <span class="prompt">daniel</span>
-            oh, and I also like
-            <span id="typed-text"></span><span id="cursor">_</span>
-          </p>
+            <p>
+              <span class="prompt"></span>
+              and love learning more about software architecure and distributed
+              systems
+            </p>
+
+            <p>
+              <span class="prompt"></span>
+            </p>
+
+            <p>
+              <span class="prompt"></span>
+              if you like, you can check my
+              <a href="https://github.com/danillouz" target="_blank">GitHub</a>
+              and
+              <a
+                href="https://stackoverflow.com/users/4455533/danillouz?tab=profile"
+                target="_blank"
+                >Stack Overflow</a
+              >
+              profiles
+            </p>
+
+            <p>
+              <span class="prompt"></span>
+            </p>
+
+            <p>
+              <span class="prompt"></span>
+              oh, and I also like
+              <span id="typed-text"></span><span id="cursor">_</span>
+            </p>
+          </div>
         </div>
-      </div>
+      </main>
     </div>
 
     <script src="./index.js"></script>
