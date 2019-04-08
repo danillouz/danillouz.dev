@@ -41,10 +41,21 @@ a {
   border-radius: 5px;
 }
 
-.menu {
+.header {
+  display: grid;
+  align-items: center;
+  position: relative;
   height: 25px;
   background-color: #d6d6d6;
   border-radius: 5px 5px 0 0;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 6px;
+  position: absolute;
+  left: 10px;
 }
 
 .button {
@@ -52,26 +63,31 @@ a {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  position: relative;
-  top: 6px;
 }
 
 .close {
-  left: 6px;
   background-color: #ff504f;
   border: 1px solid #f80000;
 }
 
 .minimize {
-  left: 6px;
   background-color: #ffbc00;
   border: 1px solid #f19900;
 }
 
 .zoom {
-  left: 6px;
   background-color: #00cf1a;
   border: 1px solid #00ae00;
+}
+
+.title {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  font-weight: 100;
+  color: #666;
 }
 
 .screen {
@@ -132,7 +148,7 @@ a {
     min-height: 100%;
   }
 
-  .menu {
+  .header {
     border-radius: 0;
   }
 
