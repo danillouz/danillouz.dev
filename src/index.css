@@ -140,7 +140,7 @@ a {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
   #terminal {
     width: 100%;
     box-shadow: none;
