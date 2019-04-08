@@ -33,8 +33,8 @@ a {
 #terminal {
   display: grid;
   grid-template-rows: auto 1fr;
-  width: 800px;
-  min-height: 500px;
+  width: 860px;
+  min-height: 640px;
   box-shadow: 0 7px 14px #00000018;
   margin: auto;
   background: transparent;
