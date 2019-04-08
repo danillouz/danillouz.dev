@@ -32,11 +32,15 @@ function render(data, el) {
   el.textContent = data;
 }
 
+function getRandomIndex(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
 function main() {
   const typedTextEl = document.getElementById('typed-text');
   const cursor = document.getElementById('cursor');
 
-  let i = 0;
+  let i = getRandomIndex(THINGS_I_LIKE.length);
   let screenText = '';
   let isBackspacing = false;
 
