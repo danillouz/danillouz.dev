@@ -10,7 +10,7 @@ const THINGS_I_LIKE = [
   'ReactJS',
   'ice cream',
   'Rust',
-  "spotting other people's strengths",
+  'bringing out the best in the people around me',
   'serverless technologies, like AWS Lambda',
   'salsa dancing',
   'having an open mind',

@@ -9,7 +9,3 @@ My personal website.
 ```
 npm start
 ```
-
-## Insipration
-
-The SVG text animation is inspired from [this codrops article](https://tympanus.net/codrops/2015/02/16/create-animated-text-fills/).
