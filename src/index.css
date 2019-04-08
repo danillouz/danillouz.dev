@@ -98,10 +98,11 @@ a {
 }
 
 .screen p {
-  margin: 0.5em 0;
+  margin: 0;
   position: relative;
   font-size: 1.2em;
   font-family: monospace;
+  line-height: 1.25;
 }
 
 .prompt::before {

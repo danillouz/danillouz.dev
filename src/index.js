@@ -1,23 +1,29 @@
 const THINGS_I_LIKE = [
   'learning new things',
   'working with an amazing team',
+  'to keep pushing myself',
   'Node.js',
   'operating what I build',
   'pizza',
   'Go',
   'sharing knowledge',
-  'building things people love',
+  'to build things people love',
   'ReactJS',
+  'to understand why a problem needs to be solved',
   'ice cream',
   'Rust',
-  'bringing out the best in the people around me',
+  'to bring out the best in the people around me',
   'serverless technologies, like AWS Lambda',
   'salsa dancing',
+  'listening to people',
   'having an open mind',
   'reading books',
   'tweaking the color scheme of my terminal',
   'sleeping',
-  'making crosswind landings'
+  'to have strong opinions, but hold them weakly',
+  'making crosswind landings',
+  'taking charge',
+  'to learn from my mistakes'
 ];
 
 const DEFAULT_TIMING = 3e3;
