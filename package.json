@@ -1,5 +1,5 @@
 {
-  "name": "danillouz.github.io",
+  "name": "danillouz.dev",
   "version": "1.0.0",
   "description": "My personal website.",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danillouz/danillouz.github.io.git"
+    "url": "git+https://github.com/danillouz/danillouz.dev.git"
   },
   "author": "Daniël Illouz <daniel.illouz@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danillouz/danillouz.github.io/issues"
+    "url": "https://github.com/danillouz/danillouz.dev/issues"
   },
-  "homepage": "https://github.com/danillouz/danillouz.github.io#readme",
+  "homepage": "https://github.com/danillouz/danillouz.dev#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.1.0",
