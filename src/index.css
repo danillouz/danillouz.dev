@@ -53,31 +53,28 @@ a {
 .menu {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-gap: 6px;
+  grid-gap: 8px;
   position: absolute;
-  left: 10px;
+  left: 8px;
 }
 
 .button {
   display: inline-block;
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   border-radius: 50%;
 }
 
 .close {
   background-color: #ff504f;
-  border: 1px solid #f80000;
 }
 
 .minimize {
   background-color: #ffbc00;
-  border: 1px solid #f19900;
 }
 
 .zoom {
   background-color: #00cf1a;
-  border: 1px solid #00ae00;
 }
 
 .title {
