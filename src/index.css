@@ -41,7 +41,7 @@ a {
   border-radius: 5px;
 }
 
-.header {
+#terminal header {
   display: grid;
   align-items: center;
   position: relative;
@@ -146,10 +146,7 @@ a {
     min-height: 100%;
   }
 
-  .header {
-    border-radius: 0;
-  }
-
+  #terminal header,
   .screen {
     border-radius: 0;
   }
