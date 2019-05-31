@@ -1,7 +1,6 @@
 {
   "name": "danillouz.dev",
-  "short_name": "danillouz.dev",
-  "description": "",
+  "short_name": "danillouz",
   "display": "standalone",
   "theme_color": "#4271ae",
   "background_color": "#ffffff",
