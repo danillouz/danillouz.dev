@@ -1,4 +1,4 @@
-# danillouz.github.io
+# danillouz.dev
 
 My personal website.
 
