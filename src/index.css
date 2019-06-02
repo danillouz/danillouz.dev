@@ -1,8 +1,7 @@
 :root {
   --color-black: #111111;
-  --color-blue: #4271ae;
+  --color-blue: #4876d6;
   --color-green: #718c00;
-  --color-cyan: #3e999f;
 }
 
 html {
@@ -22,7 +21,7 @@ body {
 }
 
 a {
-  color: var(--color-cyan);
+  color: var(--color-blue);
 }
 
 #root {
@@ -102,13 +101,8 @@ a {
   line-height: 1.25;
 }
 
-.prompt::before {
-  content: 'daniel ';
-  color: var(--color-blue);
-}
-
 .prompt::after {
-  content: ' $';
+  content: '$';
   color: var(--color-green);
 }
 
