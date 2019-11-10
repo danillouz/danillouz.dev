@@ -83,11 +83,11 @@ a {
   letter-spacing: 1px;
   line-height: 2;
   font-weight: 300;
-  color: #666;
+  color: #333333;
 }
 
 .screen {
-  background-color: #fff;
+  background-color: #ffffff;
   box-sizing: border-box;
   padding: 0.5em;
   border-radius: 0 0 5px 5px;
