@@ -31,7 +31,7 @@ export default function typewriter(
     const fullText = textData[likeIndex];
 
     // Randomize the "typing speed" to create a more natural "typing effect"
-    let timing = 500 - Math.random() * 500;
+    let timing = Math.random() * 250;
 
     if (!isBackspacing) {
       screenText = fullText.substring(0, screenText.length + 1);
