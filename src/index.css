@@ -83,6 +83,10 @@ a {
   font-size: 0.8em;
   letter-spacing: 1px;
   line-height: 2;
+}
+
+.title,
+.title a {
   color: #333333;
 }
 
