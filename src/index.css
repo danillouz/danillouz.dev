@@ -101,6 +101,10 @@ a {
   line-height: 1.25;
 }
 
+.cmd {
+  font-weight: bold;
+}
+
 .prompt::after {
   content: '$';
   color: var(--color-green);
